@@ -1,0 +1,39 @@
+{
+  "name": "simily-cms",
+  "version": "0.0.1",
+  "description": "Flexible Next.JS GraphQL and Rest CMS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev ./src",
+    "build": "next build ./src",
+    "start": "next start ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simily-CMS/cms.git"
+  },
+  "keywords": [
+    "nextjs",
+    "graphql",
+    "rest",
+    "cms",
+    "smiliy"
+  ],
+  "author": "Simeon Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simily-CMS/cms/issues"
+  },
+  "homepage": "https://github.com/Simily-CMS/cms#readme",
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.3"
+  }
+}
