@@ -1,6 +1,6 @@
 {
   "name": "simily-cms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Flexible Next.JS GraphQL and Rest CMS.",
   "scripts": {
     "dev": "next",
