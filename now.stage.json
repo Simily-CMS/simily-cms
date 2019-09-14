@@ -1,6 +1,5 @@
 {
-  "name": "Simily CMS",
+  "name": "Simily CMS Stage",
   "version": 2,
-  "scope": "simily-cms",
-  "alias": ["stage.simily.simeonsmith.dev"]
+  "scope": "simily-cms"
 }
