@@ -5,10 +5,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "deploy:bugfix": "now",
-    "deploy:feature": "now --local-config=./now.stage.json",
-    "deploy:stage": "now --local-config=./now.stage.json --prod"
+    "start": "next start"
   },
   "repository": {
     "type": "git",
