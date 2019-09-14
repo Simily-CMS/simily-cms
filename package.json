@@ -2,11 +2,13 @@
   "name": "simily-cms",
   "version": "0.0.1",
   "description": "Flexible Next.JS GraphQL and Rest CMS.",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy:prod-bugfix": "now",
+    "deploy:feature": "now --name 'Simily CMS-stage'",
+    "deploy:stage": "now --name 'Simily CMS-stage' --prod"
   },
   "repository": {
     "type": "git",
@@ -26,9 +28,9 @@
   },
   "homepage": "https://github.com/Simily-CMS/cms#readme",
   "dependencies": {
-    "next": "^9.0.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@types/node": "^12.7.5",
