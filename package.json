@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "deploy:prod-bugfix": "now",
-    "deploy:feature": "now --name 'Simily CMS-stage'",
-    "deploy:stage": "now --name 'Simily CMS-stage' --prod"
+    "deploy:feature": "now --local-config=./now.qa.json",
+    "deploy:stage": "now --local-config=./now.stage.json"
   },
   "repository": {
     "type": "git",

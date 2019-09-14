@@ -2,5 +2,5 @@
   "name": "Simily CMS",
   "version": 2,
   "scope": "simily-cms",
-  "alias": ["simily-cms.now.sh"]
+  "alias": ["stage.simily.simeonsmith.dev", "qa"]
 }
