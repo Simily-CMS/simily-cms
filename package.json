@@ -4,9 +4,9 @@
   "description": "Flexible Next.JS GraphQL and Rest CMS.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev ./src",
-    "build": "next build ./src",
-    "start": "next start ./src"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
