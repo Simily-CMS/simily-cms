@@ -1,10 +1,11 @@
 module.exports = {
-  webpack: config => {
+  webpack: (config) => {
+    const newConfig = config;
     // Fixes npm packages that depend on `fs` module
-    config.node = {
-      fs: 'empty'
-    }
+    newConfig.node = {
+      fs: 'empty',
+    };
 
-    return config
-  }
-}
+    return newConfig;
+  },
+};
